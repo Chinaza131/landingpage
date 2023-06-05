@@ -1,0 +1,66 @@
+
+.color {
+    background-image: linear-gradient(to right, #59ffec, #c0c0c0 );
+    height: 100vh;
+    overflow: hidden;
+}
+.txt1 {
+    color:  #00a692 ;
+}
+.bnt1 {
+    background-color: #00a692;
+    color: white;
+    border-radius: o;
+}
+.bnt2 {
+    background-color: black;
+    color: white;
+    border: 2px solid;
+}
+.abt-img {
+    height: 100vh;
+    width: 100%;
+}
+.myborder {
+    border-bottom-left-radius: 20%;
+    width: 100vw;
+    height: 60vh;
+    background-color: #00a692;
+    border: 1px solid  #00a692;
+}
+#Contact {
+    position: absolute;
+    top: 200px;
+    right: 200px;
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    border: 1px solid rgb(220, 217, 217);
+    background-color: rgb(242, 242, 242) ;
+}
+#faq {
+    width: 500px;
+}
+
+    
+@media only screen and (max-width: 750px){
+    #Contact {
+        position: static;
+        margin: 0 auto;
+    }
+    .myborder{
+        height: 70vh;
+    }
+    #faq {
+       max-width: 300px;
+    }
+}
+@media only screen and (max-width: 780) {
+    #last {
+        position: static;
+        z-index: 0;
+        margin: 0;
+        word-wrap: normal;
+    }
+
+}
